@@ -1,8 +1,4 @@
 <?php
-// header("Access-Control-Allow-Origin: *");
-// header('Content-Type: text/plain');
-// header("Access-Control-Allow-Headers: Content-Type, Accept");
-
 if (is_numeric($_SERVER['QUERY_STRING'])) {
   $uri = getURI($_SERVER['QUERY_STRING']);
   $pid = str_replace("/id/","/collectie/", $uri);
