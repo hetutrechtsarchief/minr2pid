@@ -1,0 +1,1 @@
+rsync -av --exclude '.git' --exclude 'upload' --exclude '.DS_Store' . vps:/home/rick/sites/hualab.nl/minr2pid
