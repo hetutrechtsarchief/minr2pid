@@ -1,1 +1,1 @@
-rsync -av --exclude '.git' --exclude 'upload' --exclude '.DS_Store' --exclude '.csv' . hualab.nl:/var/www/redirect.hualab.nl/public_html
+rsync -av --exclude '.git' --exclude 'upload' --exclude '.DS_Store' --exclude '.gitignore' . hualab.nl:/var/www/redirect.hualab.nl/public_html
